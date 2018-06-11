@@ -1,0 +1,19 @@
+{
+	"Description" : {
+		"Id" : "AbilityDefCMD_ArtThumperHE",
+		"Name" : "HE STRIKE",
+		"Details" : "CALLS IN A HIGH EXPLOSIVE ARTILLERY STRIKE FROM YOUR THUMPER SUPPORT UNIT.",
+		"Icon" : "uixSvgIcon_artillery"
+	},
+	"ActivationTime" : "CommandAbility",
+	"Resource" : "CommandAbility",
+	"ActivationCooldown" : 4,
+	"ActivationETA" : 5,
+	"specialRules" : "Artillery",
+	"Targeting" : "CommandTargetSinglePoint",
+	"FloatParam1" : 60.0,
+	"WeaponResource" : "Weapon_Autocannon_AC20_0-STOCK",
+    "StringParam1" : "vfxPrfSys_artilleryMarker_loop",
+    "IntParam1" : 1,
+    "StringParam2" : "vfxPrfPrtl_artilleryImpact_burst"
+}

@@ -1,0 +1,19 @@
+{
+	"Description" : {
+		"Id" : "AbilityDefCMD_Strafe",
+		"Name" : "STRAFE",
+		"Details" : "CALLS IN A STRAFING RUN BY YOUR AEROSPACE SUPPORT UNIT.",
+		"Icon" : "uixSvgIcon_genericDiamond"
+	},
+	"ActivationTime" : "CommandAbility",
+	"Resource" : "CommandAbility",
+	"ActivationCooldown" : 4,
+	"ActivationETA" : 2,
+	"specialRules" : "Strafe",
+	"Targeting" : "CommandTargetTwoPoints",
+	"FloatParam1" : 50.0,
+	"FloatParam2" : 200.0,
+	"ActorResource" : "vehicledef_SABRE",
+    "StringParam1" : "vfxPrfPrtl_fireTerrain_smLoop",
+    "IntParam1" : 3
+}
