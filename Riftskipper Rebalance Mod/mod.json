@@ -7,12 +7,5 @@
     "Description": "Adjusts weapon balance to make missiles weaker and the other options better. Also increases radar and spotting range, and reduces Bulwark to 33% damage reduction.",
     "Author": "Riftskipper",
     "Website": "",
-    "Contact": "justinong32@gmail.com"
-	
-	"Manifest": [
-		{ "Type": "Abilities", "Path": "abilities" },
-		{ "Type": "Ammunition", "Path": "ammunition" },
-		{ "Type": "Constants", "Path": "constants" },
-		{ "Type": "Weapons", "Path": "weapons" },
-    ]
+    "Contact": "justinong32@gmail.com",
 }

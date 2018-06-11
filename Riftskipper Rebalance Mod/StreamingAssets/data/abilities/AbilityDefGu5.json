@@ -26,7 +26,7 @@
 			{
 				"Id" : "AbilityDefGu5",
 				"Name" : "BULWARK",
-				"Details" : "PASSIVE: This unit is GUARDED (50% damage reduction against ranged attacks to the front and side) from remaining stationary.",
+				"Details" : "PASSIVE: This unit is GUARDED (33% damage reduction against ranged attacks to the front and side) from remaining stationary.",
 				"Icon" : "uixSvgIcon_ability_bulwark"
 			},
 			"statisticData" :
