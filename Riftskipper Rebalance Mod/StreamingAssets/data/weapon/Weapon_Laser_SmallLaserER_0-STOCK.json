@@ -30,7 +30,7 @@
     "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Small",
     "Description" : {
         "Cost" : 210000,
-        "Rarity" : 15,
+        "Rarity" : 20,
         "Purchasable" : false,
         "Manufacturer" : "SCI",
         "Model" : "Extended-Range Small Laser",
