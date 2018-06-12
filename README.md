@@ -28,15 +28,18 @@ Download the .zip and simply extract the contents into your Mods folder.
 
 ## Details
 
+**IMPORTANT: +hit chance makes a target harder to hit, -hit chance makes a target easier to hit.**
+
 ### Abilities
 
 Guarded nerfed - 50% to 33% damage reduction.
+Precision shot now has +3 to hit instead of -4.
 
 ### Morale
 
 Morale now has a max capacity of 100 instead of 50.
 
-Morale abilities cost less, proportionally (both cost 25, increased from 20).
+Morale abilities cost more numerically but less proportionally (both cost 30, increased from 20).
 
 Initial morale is 10 instead of 5.
 
@@ -109,8 +112,6 @@ AC5s now deal 25 damage per shot and fire 2 shots at once, dealing 50 damage tot
 1 ton of AC5 ammo now contains 30 rounds instead of 15 (to compensate for the AC5 changes).
 
 ### Spotting, Hit Chance, Misc
-
-**IMPORTANT: +hit chance makes a target harder to hit, -hit chance makes a target easier to hit.**
 
 Visual spotting distance increased from 300 to 450.
 
