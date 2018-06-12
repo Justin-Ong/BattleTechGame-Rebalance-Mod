@@ -52,10 +52,10 @@ Morale is now additionally gained from:
 - Dealing major armour damage (+1 morale).
 
 Morale is now lost from:
-- Ally ammo explosions (-5 morale).
-- Ally weapon destruction (-5 morale).
-- Taking critical damage (-5 morale).
-- Taking major armour damage (-5 morale).
+- Ally ammo explosions (-1 morale).
+- Ally weapon destruction (-1 morale).
+- Taking critical damage (-1 morale).
+- Taking major armour damage (-1 morale).
 - Being knocked down (-5 morale).
 - Being DFA'd (-5 morale).
 - Ally being destroyed (-10 for lights and mediums, -15 for heavies, -20 for assaults).
