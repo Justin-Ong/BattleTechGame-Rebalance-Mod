@@ -22,6 +22,7 @@ Download the .zip and simply extract the contents into your Mods folder.
 - LRMs and SRMs less powerful.
 - LRMs no longer cluster.
 - Guarded nerfed.
+- Precision shot nerfed.
 - Morale system more natural, can lose morale.
 - Light mechs made easier to knock down, heavy mechs made harder to knock down.
 - To hit modifiers... modified to make shooting at targets that should be easier to hit easier, and targets that should be harder to hit harder.
