@@ -259,7 +259,7 @@
         "TacticsBaseFloor": 0.65,
         "TacticsDivisor": 20,
         "TacticsModifierDivisor": 10,
-        "ToHitOffensivePush": -4
+        "ToHitOffensivePush": 3
     },
     "ResolutionConstants":
     {
@@ -745,17 +745,17 @@
     {
         "MoraleMin": 0,
         "MoraleMax": 100,
-        "CanUseInspireLevel": 35,
+        "CanUseInspireLevel": 50,
         "InspireCost": 0,
         "AutoInspire": true,
         "UseOffensivePush": true,
-        "OffensivePushCost": 25,
-        "OffensivePushLowMoraleCost": 35,
-        "OffensivePushHighMoraleCost": 15,
+        "OffensivePushCost": 30,
+        "OffensivePushLowMoraleCost": 40,
+        "OffensivePushHighMoraleCost": 25,
         "UseDefensivePush": true,
-        "DefensivePushCost": 25,
-        "DefensivePushLowMoraleCost": 35,
-        "DefensivePushHighMoraleCost": 15,
+        "DefensivePushCost": 30,
+        "DefensivePushLowMoraleCost": 40,
+        "DefensivePushHighMoraleCost": 25,
         "MoraleInitialDefault": 10,
         "UseBaselineMoraleGainEachRound": true,
         "MoraleBaselineGainPerRound": 0,
