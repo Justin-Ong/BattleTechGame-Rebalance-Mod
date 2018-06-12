@@ -1002,12 +1002,12 @@
         "MoraleAttackDescription":
         {
             "Name": "PRECISION STRIKE",
-            "Details": "Take a Called Shot against a single target at -4 Difficulty. The target's next Initiative is reduced by 1 (to a minimum of 1).\n"
+            "Details": "Take a Called Shot against a single target at 3 Difficulty. The target's next Initiative is reduced by 1 (to a minimum of 1).\n"
         },
         "MoraleCostAttackDescription":
         {
             "Name": "PRECISION STRIKE COST",
-            "Details": "Cost: 25 Morale"
+            "Details": "Cost: 30 Morale"
         },
         "MoraleCostAttackDescriptionFury":
         {
@@ -1017,12 +1017,12 @@
         "MoraleCostAttackDescriptionLow":
         {
             "Name": "PRECISION STRIKE COST LOW",
-            "Details": "Cost: <color=#F04228FF>35 Morale (this MechWarrior has Low Spirits)</color>"
+            "Details": "Cost: <color=#F04228FF>40 Morale (this MechWarrior has Low Spirits)</color>"
         },
         "MoraleCostAttackDescriptionHigh":
         {
             "Name": "PRECISION STRIKE COST HIGH",
-            "Details": "Cost: <color=#85DBF6FF>15 Morale (this MechWarrior has High Spirits)</color>"
+            "Details": "Cost: <color=#85DBF6FF>25 Morale (this MechWarrior has High Spirits)</color>"
         },
         "MoraleDefendDescription":
         {
@@ -1032,17 +1032,17 @@
         "MoraleCostDefendDescription":
         {
             "Name": "VIGILANCE COST",
-            "Details": "Cost: 25 Morale"
+            "Details": "Cost: 30 Morale"
         },
         "MoraleCostDefendDescriptionLow":
         {
             "Name": "VIGILANCE COST LOW",
-            "Details": "Cost: <color=#F04228FF>35 Morale (this MechWarrior has Low Spirits)</color>"
+            "Details": "Cost: <color=#F04228FF>40 Morale (this MechWarrior has Low Spirits)</color>"
         },
         "MoraleCostDefendDescriptionHigh":
         {
             "Name": "VIGILANCE COST HIGH",
-            "Details": "Cost: <color=#85DBF6FF>15 Morale (this MechWarrior has High Spirits)</color>"
+            "Details": "Cost: <color=#85DBF6FF>25 Morale (this MechWarrior has High Spirits)</color>"
         },
         "FireMultiDescription":
         {
