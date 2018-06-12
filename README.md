@@ -34,6 +34,7 @@ Download the .zip and simply extract the contents into your Mods folder.
 ### Abilities
 
 Guarded nerfed - 50% to 33% damage reduction.
+
 Precision shot now has +3 to hit instead of -4.
 
 ### Morale
