@@ -25,7 +25,7 @@ Download the .zip and extract the contents into your Mods folder.
 - Precision shot nerfed.
 - Morale system more natural, can lose morale.
 - Light mechs made easier to knock down, heavy mechs made harder to knock down.
-- To hit modifiers... modified to make shooting at targets that should be easier to hit easier, and targets that should be harder to hit harder.
+- To hit modifiers... modified to make light vehicles and mechs harder to hit.
 
 ## Details
 
@@ -140,7 +140,9 @@ Visual spotting distance increased from 300 to 450.
 
 Radar spotting distance increased from 400 to 500.
 
-Mechs can now shoot at targets a full 180 degrees in front of them.
+Mechs can shoot at targets a full 180 degrees in front of them.
+
+Light mechs have a +3 hit chance modifier.
 
 Assault vehicles have a -1 hit chance modifier.
 

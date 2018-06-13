@@ -2,10 +2,7 @@
     "ToHit":
     {
         "FiringArcDegrees": 90.0,
-        "ToHitAssault": 0,
-        "ToHitHeavy": 0,
-        "ToHitMedium": 1,
-        "ToHitLight": 2,
+        "ToHitLight": 3,
         "ToHitVehicleAssault": -1,
         "ToHitVehicleHeavy": 0,
         "ToHitVehicleMedium": 0,
