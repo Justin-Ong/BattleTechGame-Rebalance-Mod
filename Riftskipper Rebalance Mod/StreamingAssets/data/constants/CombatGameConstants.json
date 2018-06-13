@@ -2,11 +2,11 @@
     "ToHit":
     {
         "FiringArcDegrees": 90.0,
-        "ToHitLight": 3,
-        "ToHitVehicleAssault": -1,
+        "ToHitLight": 4,
+        "ToHitVehicleAssault": 0,
         "ToHitVehicleHeavy": 0,
-        "ToHitVehicleMedium": 0,
-        "ToHitVehicleLight": 1,
+        "ToHitVehicleMedium": 1,
+        "ToHitVehicleLight": 2,
         "ToHitElevationLevelHeight": 20,
         "ToHitElevationModifierPerLevel": 1,
         "ToHitElevationUseMultipleLevels": true,
@@ -19,7 +19,7 @@
         "ToHitCoverObstructed": 4,
         "DamageResistanceObstructed": 1.0,
         "DamageResistanceIndirectFire": 1.0,
-        "ClusterChanceOriginalLocationMultiplier": 1,
+        "ClusterChanceOriginalLocationMultiplier": 2,
         "ClusterChanceAdjacentMultiplier": 1,
         "ClusterChanceNonadjacentMultiplier": 1,
         "ClusterChanceNeverMultiplyHead": false,
@@ -420,7 +420,6 @@
                 "v": 8
             }
         ]
-
     },
     "MoraleConstants":
     {
@@ -458,7 +457,7 @@
         "ChangeAllyAmmoExplodes": -2,
         "ChangeAllyWeaponDestroyed": -2,
         "ChangeAllyLocationDestroyed": -2,
-        "ChangeAllyMinorArmorDamage": 0,
+        "ChangeAllyMinorArmorDamage": -1,
         "ChangeAllyMajorArmorDamage": -2,
         "ChangeAllyKnockedDown": -10,
         "ChangeDFAReceived": -10,

@@ -2,7 +2,7 @@
 
 ## Overview
 
-This mod aims to make all weapons viable. It does this by buffing weaker weapons (smaller ACs, certain energy weapons), nerfing missiles and otherwise tweaking weapon values. In addition, Guarded was nerfed, the visual and radar range was increased, the morale system was tweaked, and hit chances are calculated slightly differently to make lights harder to hit and assaults easier.
+This mod aims to make all weapons viable, and make the game more difficult in general. It does this by buffing weaker weapons (smaller ACs, certain energy weapons), nerfing missiles and otherwise tweaking weapon values. In addition, Guarded was nerfed, the visual and radar range was increased, the morale system was tweaked, and hit chances are calculated slightly differently to make lights harder to hit.
 
 ## Requirements
 
@@ -45,7 +45,7 @@ Morale abilities cost more numerically but less proportionally (both cost 30, in
 
 Initial morale is 10 instead of 5.
 
-Morale is no longer gained at the start of each turn for no reason.
+Morale is no longer passively gained at the start of each turn.
 
 Morale is now additionally gained from:
 - Causing critical damage (+1 morale).
@@ -57,6 +57,7 @@ Morale is now lost from:
 - Ally ammo explosions (-2 morale).
 - Ally weapon destruction (-2 morale).
 - Taking critical damage (-2 morale).
+- Taking minor armour damage (-1 morale).
 - Taking major armour damage (-2 morale).
 - Being knocked down (-10 morale).
 - Being DFA'd (-10 morale).
@@ -142,13 +143,13 @@ Radar spotting distance increased from 400 to 500.
 
 Mechs can shoot at targets a full 180 degrees in front of them.
 
-Light mechs have a +3 hit chance modifier.
+Light mechs have a +4 hit chance modifier.
 
-Assault vehicles have a -1 hit chance modifier.
+Light vehicles have a +2 hit chance modifier.
 
-Light vehicles have a +1 hit chance modifier.
+Medium vehicles have a +1 hit chance modifier.
 
-Now for every 20 units of elevation you have on a target, you have -1 hit chance, and vice versa.
+For every 20 units of elevation you have on a target, you have -1 hit chance, and vice versa.
 
 Shooting at a target at medium range now gives +1 hit chance instead of 0.
 
@@ -172,4 +173,4 @@ Hitting a target with melee now removes Evasive.
 
 Head hits are less common.
 
-LRM clustering removed.
+LRM clustering is much less prominent, but CAN cluster on the head with a lucky shot.
