@@ -1,11 +1,11 @@
 {
     "Name": "Riftskipper's Rebalance Mod",
-    "Version": "0.3.1",
+    "Version": "0.3.2",
 	
     "Enabled": true,
 
     "Description": "Adjusts weapon balance, spotting, morale, accuracy, etc. in order to make the game harder but more balanced.",
     "Author": "Riftskipper",
     "Website": "",
-    "Contact": "justinong32@gmail.com",
+    "Contact": "",
 }
