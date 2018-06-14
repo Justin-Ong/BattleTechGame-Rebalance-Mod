@@ -173,4 +173,10 @@ Hitting a target with melee now removes Evasive.
 
 Head hits are less common.
 
-LRM clustering is much less prominent, but CAN cluster on the head with a lucky shot.
+LRM clustering removed.
+
+## Known Issues
+
+The AC2 and AC5 use the machine gun VFX and SFX.
+
+The visual indicator for a mech's firing arc still shows 120 degrees.

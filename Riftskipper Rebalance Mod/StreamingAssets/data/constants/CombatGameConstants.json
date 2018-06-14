@@ -19,7 +19,7 @@
         "ToHitCoverObstructed": 4,
         "DamageResistanceObstructed": 1.0,
         "DamageResistanceIndirectFire": 1.0,
-        "ClusterChanceOriginalLocationMultiplier": 2,
+        "ClusterChanceOriginalLocationMultiplier": 1,
         "ClusterChanceAdjacentMultiplier": 1,
         "ClusterChanceNonadjacentMultiplier": 1,
         "ClusterChanceNeverMultiplyHead": false,
