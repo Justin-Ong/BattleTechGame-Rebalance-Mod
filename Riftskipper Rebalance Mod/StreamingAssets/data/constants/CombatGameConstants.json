@@ -437,6 +437,7 @@
         "DefensivePushHighMoraleCost": 25,
         "MoraleInitialDefault": 10,
         "MoraleBaselineGainPerRound": 0,
+		"ThresholdMinorArmor": 0.01,
         "ChangeEnemyCrit": 1,
         "ChangeEnemyAmmoExplodes": 1,
         "ChangeEnemyWeaponDestroyed": 1,
