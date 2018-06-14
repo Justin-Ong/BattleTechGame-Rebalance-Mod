@@ -2,7 +2,7 @@
 
 ## Overview
 
-This mod aims to make all weapons viable. It does this by buffing weaker weapons (smaller ACs, certain energy weapons), nerfing missiles and otherwise tweaking weapon values. In addition, Guarded was nerfed, the visual and radar range was increased, the morale system was tweaked, and hit chances are calculated slightly differently to make lights harder to hit and assaults easier.
+This mod aims to make all weapons viable, and make the game more difficult in general. It does this by buffing weaker weapons (smaller ACs, certain energy weapons), nerfing missiles and otherwise tweaking weapon values. In addition, Guarded was nerfed, the visual and radar range was increased, the morale system was tweaked, and hit chances are calculated slightly differently to make lights harder to hit.
 
 ## Requirements
 
@@ -13,7 +13,7 @@ This mod edits almost all weapon files, AC2 ammo and AC5 ammo, almost all mech c
 
 ## Installation
 
-Download the .zip and simply extract the contents into your Mods folder.
+Download the .zip and extract the contents into your Mods folder.
 
 ## Main Features
 
@@ -22,25 +22,30 @@ Download the .zip and simply extract the contents into your Mods folder.
 - LRMs and SRMs less powerful.
 - LRMs no longer cluster.
 - Guarded nerfed.
+- Precision shot nerfed.
 - Morale system more natural, can lose morale.
 - Light mechs made easier to knock down, heavy mechs made harder to knock down.
-- To hit modifiers... modified to make shooting at targets that should be easier to hit easier, and targets that should be harder to hit harder.
+- To hit modifiers... modified to make light vehicles and mechs harder to hit.
 
 ## Details
 
+**IMPORTANT: +hit chance makes a target harder to hit, -hit chance makes a target easier to hit.**
+
 ### Abilities
 
-Guarded nerfed - 50% to 33% damage reduction.
+Guarded damage reduction reduced from 50% to 33%.
+
+Precision shot now has +2 to hit instead of -4.
 
 ### Morale
 
 Morale now has a max capacity of 100 instead of 50.
 
-Morale abilities cost less, proportionally (both cost 25, increased from 20).
+Morale abilities cost more numerically but less proportionally (both cost 30, increased from 20).
 
 Initial morale is 10 instead of 5.
 
-Morale is no longer gained at the start of each turn for no reason.
+Morale is no longer passively gained at the start of each turn.
 
 Morale is now additionally gained from:
 - Causing critical damage (+1 morale).
@@ -49,14 +54,15 @@ Morale is now additionally gained from:
 - Dealing major armour damage (+1 morale).
 
 Morale is now lost from:
-- Ally ammo explosions (-5 morale).
-- Ally weapon destruction (-5 morale).
-- Taking critical damage (-5 morale).
-- Taking major armour damage (-5 morale).
-- Being knocked down (-5 morale).
-- Being DFA'd (-5 morale).
-- Ally being destroyed (-10 for lights and mediums, -15 for heavies, -20 for assaults).
-- An ally being destroyed by melee causes an additional -5 morale.
+- Ally ammo explosions (-2 morale).
+- Ally weapon destruction (-2 morale).
+- Taking critical damage (-2 morale).
+- Taking minor armour damage (-1 morale).
+- Taking major armour damage (-2 morale).
+- Being knocked down (-10 morale).
+- Being DFA'd (-10 morale).
+- Ally being destroyed (-15 for lights and mediums, -20 for heavies, -25 for assaults).
+- An ally being destroyed by melee causes an additional -10 morale.
 
 ### Mechs
 
@@ -78,29 +84,50 @@ ER Small Laser:
 - Base damage reduced from 20 to 15. 
 - Heat reduced from 15 to 10.
 
-Small Pulse Laser base damage reduced from 25 to 15. Heat reduced from 10 to 8. Now ignores 1 evasion pip.
+Small Pulse Laser:
+- Base damage reduced from 25 to 15.
+- Heat reduced from 10 to 8.
+- Now ignores 1 evasion pip.
 
-Medium Laser base damage reduced from 25 to 20.
+Medium Laser:
+- Base damage reduced from 25 to 20.
 
-ER Medium Laser base damage reduced from 25 to 20. Heat reduced from 25 to 15.
+ER Medium Laser:
+- Base damage reduced from 25 to 20.
+- Heat reduced from 25 to 15.
 
-Medium Pulse Laser base damage reduced from 25 to 20. Heat reduced from 20 to 12. Now ignores 1 evasion pip.
+Medium Pulse Laser:
+- Base damage reduced from 25 to 20.
+- Heat reduced from 20 to 12.
+- Now ignores 1 evasion pip.
 
-Large Laser heat reduced from 30 to 24.
+Large Laser:
+- Heat reduced from 30 to 24.
 
-ER Large Laser heat reduced from 45 to 36.
+ER Large Laser:
+- Heat reduced from 45 to 36.
 
-Large Pulse Laser base damage reduced from 45 to 40. Heat reduced from 40 to 30. Now ignores 1 evasion pip.
+Large Pulse Laser:
+- Base damage reduced from 45 to 40.
+- Heat reduced from 40 to 30.
+- Now ignores 1 evasion pip.
 
-PPC heat reduced from 40 to 30.
+PPC:
+- Heat reduced from 40 to 30.
 
-ERPPC heat reduced from 50 to 40.
+ERPPC:
+- Heat reduced from 50 to 40.
 
-Machine Gun crit increased from 50% to 75%.
+Machine Gun:
+- Crit increased from 50% to 75%.
 
-AC2s now deal 10 damage per shot and fire 3 shots at once, dealing 30 damage total. Shots roll for hit chance and hit location independently. +Dmg (5 and 10) attributes replaced with +Shots (1 and 2).
+AC2:
+- Now deal 10 damage per shot and fire 3 shots at once, dealing 30 damage total. Shots roll for hit chance and hit location independently.
+- +Dmg weapon attributes adjusted to be less powerful.
 
-AC5s now deal 25 damage per shot and fire 2 shots at once, dealing 50 damage total. Shots roll for hit chance and hit location independently.
+AC5:
+- Now deal 25 damage per shot and fire 2 shots at once, dealing 50 damage total. Shots roll for hit chance and hit location independently. 
+- +Dmg weapon attributes adjusted to be less powerful.
 
 ### Ammo
 
@@ -110,19 +137,19 @@ AC5s now deal 25 damage per shot and fire 2 shots at once, dealing 50 damage tot
 
 ### Spotting, Hit Chance, Misc
 
-**IMPORTANT: +hit chance makes a target harder to hit, -hit chance makes a target easier to hit.**
-
 Visual spotting distance increased from 300 to 450.
 
 Radar spotting distance increased from 400 to 500.
 
-Mechs can now shoot at targets a full 180 degrees in front of them.
+Mechs can shoot at targets a full 180 degrees in front of them.
 
-Assault vehicles have a -1 hit chance modifier.
+Light mechs have a +4 hit chance modifier.
 
-Light vehicles have a +1 hit chance modifier.
+Light vehicles have a +2 hit chance modifier.
 
-Now for every 20 units of elevation you have on a target, you have -1 hit chance.
+Medium vehicles have a +1 hit chance modifier.
+
+For every 20 units of elevation you have on a target, you have -1 hit chance, and vice versa.
 
 Shooting at a target at medium range now gives +1 hit chance instead of 0.
 
@@ -147,3 +174,9 @@ Hitting a target with melee now removes Evasive.
 Head hits are less common.
 
 LRM clustering removed.
+
+## Known Issues
+
+The AC2 and AC5 use the machine gun VFX and SFX.
+
+The visual indicator for a mech's firing arc still shows 120 degrees.
