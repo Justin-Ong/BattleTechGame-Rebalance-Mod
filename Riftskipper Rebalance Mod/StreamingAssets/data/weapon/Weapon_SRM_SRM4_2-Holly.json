@@ -1,3 +1,4 @@
 {
-    "Damage" : 10,
+    "Damage" : 9,
+	"BonusValueA" : "+ 2 Dmg.",
 }

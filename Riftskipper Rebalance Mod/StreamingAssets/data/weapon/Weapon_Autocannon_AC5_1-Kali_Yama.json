@@ -2,6 +2,7 @@
     "Damage" : 28,
     "ShotsWhenFired" : 2,
     "ProjectilesPerShot" : 1,
+	"Instability" : 8,
     "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
     "BonusValueA" : "+ 3 Dmg.",
 }

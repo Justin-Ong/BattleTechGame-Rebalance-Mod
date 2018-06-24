@@ -8,7 +8,12 @@ This mod aims to make all weapons viable, and make the game more difficult in ge
 
 You will need [ModTek](https://github.com/Mpstark/ModTek) and [BTML](https://github.com/Mpstark/BattleTechModLoader).
 
+## Reccomendations
+
+[Less Head Injuries] (https://www.nexusmods.com/battletech/mods/10).
+
 ## Conflicts
+
 This mod edits almost all weapon files, AC2 ammo and AC5 ammo, almost all mech chassis and CombatGameConstants.json. As such, installing this with other mods that edit these files can produce unwanted results.
 
 ## Installation
@@ -37,6 +42,12 @@ Guarded damage reduction reduced from 50% to 33%.
 
 Precision shot now has +2 to hit instead of -4.
 
+### Pilot Injury
+
+Overheating now causes a pilot injury.
+
+Pilots can be injured multiple times in one instance of combat.
+
 ### Morale
 
 Morale now has a max capacity of 100 instead of 50.
@@ -46,6 +57,8 @@ Morale abilities cost more numerically but less proportionally (both cost 30, in
 Initial morale is 10 instead of 5.
 
 Morale is no longer passively gained at the start of each turn.
+
+Enemies can now be inspired.
 
 Morale is now additionally gained from:
 - Causing critical damage (+1 morale).
@@ -75,45 +88,49 @@ LRMs:
 - Stability damage reduced from 2 to 1.
 
 SRMs:
-- Base damage reduced from 8 to 6.
+- Base damage reduced from 8 to 7.
+- +weapon attributes adjusted to be less powerful.
 
 Small Laser:
 - Base damage reduced from 20 to 15.
+- Heat reduced from 6 to 5.
+- +Dmg weapon attributes adjusted to be less powerful.
 
 ER Small Laser:
 - Base damage reduced from 20 to 15. 
 - Heat reduced from 15 to 10.
 
 Small Pulse Laser:
-- Base damage reduced from 25 to 15.
+- Base damage reduced from 25 to 20.
 - Heat reduced from 10 to 8.
 - Now ignores 1 evasion pip.
 
 Medium Laser:
 - Base damage reduced from 25 to 20.
+- +Dmg weapon attributes adjusted to be less powerful.
 
 ER Medium Laser:
 - Base damage reduced from 25 to 20.
 - Heat reduced from 25 to 15.
 
 Medium Pulse Laser:
-- Base damage reduced from 25 to 20.
-- Heat reduced from 20 to 12.
+- Base damage reduced from 30 to 25.
+- Heat reduced from 16 to 12.
 - Now ignores 1 evasion pip.
 
 Large Laser:
-- Heat reduced from 30 to 24.
+- Heat increased from 18 to 24.
 
 ER Large Laser:
-- Heat reduced from 45 to 36.
+- Heat increased from 25 to 36.
 
 Large Pulse Laser:
-- Base damage reduced from 45 to 40.
 - Heat reduced from 40 to 30.
 - Now ignores 1 evasion pip.
 
 PPC:
-- Heat reduced from 40 to 30.
+- Heat reduced from 35 to 30.
+- +weapon attributes adjusted to be less powerful.
 
 ERPPC:
 - Heat reduced from 50 to 40.
@@ -123,11 +140,16 @@ Machine Gun:
 
 AC2:
 - Now deal 10 damage per shot and fire 3 shots at once, dealing 30 damage total. Shots roll for hit chance and hit location independently.
+- Now deal 4 stability damage per shot instead of 5.
 - +Dmg weapon attributes adjusted to be less powerful.
 
 AC5:
-- Now deal 25 damage per shot and fire 2 shots at once, dealing 50 damage total. Shots roll for hit chance and hit location independently. 
+- Now deal 25 damage per shot and fire 2 shots at once, dealing 50 damage total. Shots roll for hit chance and hit location independently.
+- Now deal 10 stability damage per shot instead of 20.
 - +Dmg weapon attributes adjusted to be less powerful.
+
+Gauss Rifle:
+- Now deals 80 damage per shot.
 
 ### Ammo
 
@@ -179,4 +201,4 @@ LRM clustering removed.
 
 The AC2 and AC5 use the machine gun VFX and SFX.
 
-The visual indicator for a mech's firing arc still shows 120 degrees.
+The visual indicator for a mech's firing arc still shows 120 degrees instead of 180 degrees.

@@ -1,3 +1,6 @@
 {
-    "HeatGenerated" : 30,
+    "HeatGenerated" : 33,
+	"Instability" : 40,
+	"BonusValueA" : "+ 20 Stb.Dmg.",
+	"BonusValueB" : "+ 3 Heat.",
 }

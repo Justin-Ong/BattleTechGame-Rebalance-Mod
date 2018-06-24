@@ -1,3 +1,5 @@
 {
     "Damage" : 8,
+	"BonusValueA" : "+ 1 Dmg.",
+    "BonusValueB" : "+ 1 Stb.Dmg.",
 }

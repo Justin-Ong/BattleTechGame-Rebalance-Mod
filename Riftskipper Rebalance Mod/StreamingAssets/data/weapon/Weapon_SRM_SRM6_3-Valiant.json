@@ -1,3 +1,6 @@
 {
-    "Damage" : 10,
+    "Damage" : 9,
+	"Instability" : 4,
+	"BonusValueA" : "+ 2 Dmg.",
+    "BonusValueB" : "+ 1 Stb.Dmg.",
 }

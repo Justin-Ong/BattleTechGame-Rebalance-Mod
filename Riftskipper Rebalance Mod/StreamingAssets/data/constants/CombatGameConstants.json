@@ -1,4 +1,8 @@
 {
+    "Heat":
+    {
+        "ShutdownCausesInjury": true,
+    },
     "ToHit":
     {
         "FiringArcDegrees": 90.0,
@@ -421,6 +425,10 @@
             }
         ]
     },
+    "PilotingConstants":
+    {
+        "UseFixedInjuryPenalty": false,
+    },
     "MoraleConstants":
     {
         "MoraleMin": 0,
@@ -467,6 +475,7 @@
         "ChangeAllyDestroyedHeavy": -20,
         "ChangeAllyDestroyedAssault": -25,
         "ChangeAllyDestroyedMeleeAdditional": -10,
+		"CanAIBeInspired": true,
     },
     "CombatUIConstants":
     {
