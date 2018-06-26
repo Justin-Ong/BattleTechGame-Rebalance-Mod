@@ -31,6 +31,7 @@ Download the .zip and extract the contents into your Mods folder.
 - Morale system more natural, can lose morale.
 - Light mechs made easier to knock down, heavy mechs made harder to knock down.
 - To hit modifiers... modified to make light vehicles and mechs harder to hit.
+- AI modified to be more challenging to fight.
 
 ## Details
 
@@ -47,6 +48,10 @@ Precision shot now has +2 to hit instead of -4.
 Overheating now causes a pilot injury.
 
 Pilots can be injured multiple times in one instance of combat.
+
+### AI
+
+Will now play more defensively and stick together more.
 
 ### Morale
 
@@ -202,3 +207,9 @@ LRM clustering removed.
 The AC2 and AC5 use the machine gun VFX and SFX.
 
 The visual indicator for a mech's firing arc still shows 120 degrees instead of 180 degrees.
+
+## Acknowledgements
+
+Thanks to Mpstark for creating ModTek and BTML.
+
+Thanks to Amechwarrior and Mpstark for AI modding info.
