@@ -7,11 +7,39 @@
             "floatVal" : 0.0,
          }
       },
+	  {
+	     "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 1.0,
+         }
+      },
+      {
+         "k" : "Float_PreferAttackFromBehindHostileFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 1.1,
+         }
+      },
+      {
+         "k" : "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 1.0,
+         }
+      },
+      {
+         "k" : "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 10,
+         }
+      },
       {
          "k" : "Float_PreferLessTargetableLocationFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.5,
+            "floatVal" : 1.5,
          }
       },
       {
@@ -32,7 +60,7 @@
          "k" : "Float_PreferInsideMeleeRangeFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0,
+            "floatVal" : -10.0,
          }
       },
 	  	{
@@ -52,7 +80,7 @@
             "k" : "Float_PreferLocationsThatGrantGuardFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5,
+		"floatVal" : 1.0,
             }
 	},
 		{
@@ -61,7 +89,7 @@
 	    "k" : "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1,
+		"floatVal" : 0.5,
 	    }
 	},
 		{
@@ -70,7 +98,7 @@
 	    "k" : "Float_FenceRadius",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 150,
+		"floatVal" : 250,
 	    }
 	},
 		{
@@ -85,6 +113,41 @@
 		"type" : "Float",
 		"floatVal" : -0.5,
 	    }
+	},
+	{
+      "k": "Float_PreferLOSToFewestHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.0
+      }
+    },
+    {
+      "k": "Float_SprintPreferLOSToFewestHostileFactorWeight",
+      "v": {
+        "type": "Float",
+        "floatVal": 1.5
+      }
+    },
+	{
+	  "k" : "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
+      "v" : {
+        "type" : "Float",
+        "floatVal" : 1.0,
+      }
+    },
+	{
+	  "k" : "Float_PreferHigherPositionFactorWeight",
+	  "v" : {
+	    "type" : "Float",
+	    "floatVal" : 1.0,
+	  }
+	},
+	{
+      "k" : "Float_SprintPreferHigherPositionFactorWeight",
+      "v" : {
+        "type" : "Float",
+        "floatVal" : 1.5,
+	  }
 	},
     ]
 }

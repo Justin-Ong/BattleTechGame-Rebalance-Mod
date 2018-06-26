@@ -4,7 +4,7 @@
          "k" : "Float_AccuracyNeededForOverheatAttack",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.75,
+            "floatVal" : 0.85,
          }
       },
       {
@@ -53,7 +53,7 @@
          "k" : "Int_RecentTargetThresholdPhases",
          "v" : {
             "type" : "Int",
-            "intVal" : 11,
+            "intVal" : 0,
          }
       },
       {
@@ -81,7 +81,7 @@
          "k" : "Bool_ProhibitTargetingPriorityTargetsAfterBeingTargeted",
          "v" : {
             "type" : "Bool",
-            "boolVal" : true,
+            "boolVal" : false,
          }
       },
       {
@@ -102,35 +102,35 @@
          "k" : "Float_PreferLowerMovementFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : -1,
+            "floatVal" : -1.0,
          }
       },
       {
          "k" : "Float_PreferHigherPositionFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.1,
+            "floatVal" : 1.0,
          }
       },
       {
          "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.5,
+            "floatVal" : 1.0,
          }
       },
       {
          "k" : "Float_PreferAttackFromBehindHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : -1.0,
+            "floatVal" : 1.1,
          }
       },
       {
          "k" : "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0,
+            "floatVal" : 1.0,
          }
       },
       {
@@ -172,14 +172,14 @@
          "k" : "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0,
+            "floatVal" : 0.5,
          }
       },
       {
          "k" : "Float_PreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.5,
+            "floatVal" : 1.0,
          }
       },
       {
@@ -200,7 +200,7 @@
          "k" : "Float_AcceptableHeatLevel",
          "v" : {
             "type" : "Float",
-            "floatVal" : 1.4,
+            "floatVal" : 2.0,
          }
       },
       {
@@ -235,7 +235,7 @@
          "k" : "Float_DFADamageMultiplier",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0,
+            "floatVal" : 0.5,
          }
       },
     ]

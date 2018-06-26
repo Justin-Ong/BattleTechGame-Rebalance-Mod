@@ -19,7 +19,7 @@
             "k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1,
+		"floatVal" : 0.5,
             }
 	},
 		{
@@ -28,7 +28,7 @@
 	    "k" : "Float_SprintPreferNotLethalPositionFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5,
+		"floatVal" : 1.0,
 	    }
 	},
 		{
@@ -42,7 +42,7 @@
             "k" : "Float_PreferLethalDamageToRearArcFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0,
+		"floatVal" : -1.0,
             }
 	},
 		{
@@ -56,7 +56,7 @@
             "k" : "Float_SprintPreferLethalDamageToRearArcFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0,
+		"floatVal" : -1.5,
             }
 	},
 		{
@@ -64,7 +64,7 @@
 	    "k" : "Float_PreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0,
+		"floatVal" : 1.0,
 	    }
 	},
 	{
@@ -73,7 +73,7 @@
 	    "k" : "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0,
+		"floatVal" : 1.0,
 	    }
 	},
 	{
@@ -81,7 +81,7 @@
 	    "k" : "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0,
+		"floatVal" : 1.0,
 	    }
 	},
 	{
@@ -90,7 +90,7 @@
 	    "k" : "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0,
+		"floatVal" : 1.5,
 	    }
 	},
 	]

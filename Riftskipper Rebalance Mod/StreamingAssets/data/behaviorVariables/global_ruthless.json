@@ -62,7 +62,7 @@
             "k" : "Float_PreferHigherPositionFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0,
+		"floatVal" : 0.1,
             }
 	},
 	{
@@ -71,7 +71,7 @@
             "k" : "Float_SprintPreferHigherPositionFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0,
+		"floatVal" : 0.2,
             }
 	},
 	{
@@ -93,7 +93,7 @@
             "k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0,
+		"floatVal" : 1.0,
             }
 	},
 	{
@@ -121,7 +121,7 @@
             "k" : "Float_PreferFacingHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.35,
+		"floatVal" : 0.5,
             }
 	},
 	{
@@ -132,7 +132,7 @@
             "k" : "Float_SprintPreferFacingHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.35,
+		"floatVal" : 0.15,
             }
 	},
 	{
@@ -238,7 +238,7 @@
             "k" : "Float_PreferLessTargetableLocationFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0,
+		"floatVal" : 0.05,
             }
 	},
 	{
@@ -247,7 +247,7 @@
             "k" : "Float_SprintPreferLessTargetableLocationFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0,
+		"floatVal" : 0.1,
             }
 	},
 	{
@@ -274,7 +274,7 @@
             "k" : "Float_PreferHigherHeatPerTurnLocationsFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0,
+		"floatVal" : -0.05,
             }
 	},
 	{
@@ -283,7 +283,7 @@
             "k" : "Float_SprintPreferHigherHeatPerTurnLocationsFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0,
+		"floatVal" : -0.1,
             }
 	},
 	{
@@ -310,7 +310,7 @@
             "k" : "Float_PreferAttackingLowerArmorHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.8,
+		"floatVal" : 1.0,
             }
 	},
 	{

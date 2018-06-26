@@ -4,35 +4,35 @@
          "k" : "Float_PreferHigherPositionFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.8,
+            "floatVal" : 1.0,
          }
       },
       {
          "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0,
+            "floatVal" : 1.0,
          }
       },
       {
          "k" : "Float_PreferAttackFromBehindHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0,
+            "floatVal" : 1.1,
          }
       },
       {
          "k" : "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0,
+            "floatVal" : 1.0,
          }
       },
       {
          "k" : "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0,
+            "floatVal" : 1.0,
          }
       },
       {
@@ -67,7 +67,7 @@
          "k" : "Float_PreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0,
+            "floatVal" : 1.5,
          }
       },
       {
@@ -81,7 +81,7 @@
          "k" : "Float_AcceptableHeatLevel",
          "v" : {
             "type" : "Float",
-            "floatVal" : 1.4,
+            "floatVal" : 2.0,
          }
       },
       {
@@ -109,7 +109,7 @@
          "k" : "Float_PreferLessTargetableLocationFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.1,
+            "floatVal" : 1.0,
          }
       },
       {
@@ -123,42 +123,42 @@
          "k" : "Float_PreferPresentingHigherArmorToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.7,
+            "floatVal" : 1.25,
          }
       },
 	        {
          "k" : "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 1.0,
+            "floatVal" : 1.5,
          }
       },
 	        {
          "k" : "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
          "v" : {
             "type" : "Float",
-             "floatVal" : 1.0,
+             "floatVal" : 2.0,
          }
       },
        {
          "k" : "Float_SprintPreferLessTargetableLocationFactorWeight",
          "v" : {
             "type" : "Float",
-             "floatVal" : 1.0,
+             "floatVal" : 1.5,
          }
       },
 	  {
          "k" : "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
          "v" : {
             "type" : "Float",
-             "floatVal" : 0.8,
+             "floatVal" : 0.5,
          }
       },
 	   {
          "k" : "Float_SprintPreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-             "floatVal" : 0.5,
+             "floatVal" : 1.0,
          }
       },
     ]

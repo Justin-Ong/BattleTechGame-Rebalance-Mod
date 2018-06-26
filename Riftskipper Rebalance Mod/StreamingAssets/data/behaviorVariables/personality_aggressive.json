@@ -4,14 +4,14 @@
          "k" : "Float_AccuracyNeededForOverheatAttack",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.75,
+            "floatVal" : 0.7,
          }
       },
       {
          "k" : "Float_ExistingTargetDamageForOverheatAttack",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.85,
+            "floatVal" : 0.75
          }
       },
       {
@@ -54,7 +54,7 @@
          "k" : "Int_RecentTargetThresholdPhases",
          "v" : {
             "type" : "Int",
-            "intVal" : 11,
+            "intVal" : 0,
          }
       },
       {
@@ -82,7 +82,7 @@
          "k" : "Bool_ProhibitTargetingPriorityTargetsAfterBeingTargeted",
          "v" : {
             "type" : "Bool",
-            "boolVal" : true,
+            "boolVal" : false,
          }
       },
       {
@@ -103,14 +103,14 @@
          "k" : "Float_PreferLowerMovementFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : -0.5,
+            "floatVal" : -1.0,
          }
       },
       {
          "k" : "Float_PreferHigherPositionFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.1,
+            "floatVal" : 0.5,
 
          }
       },
@@ -118,7 +118,7 @@
          "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 1.0,
+            "floatVal" : 1.2,
 
          }
       },
@@ -126,7 +126,7 @@
          "k" : "Float_PreferAttackFromBehindHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0,
+            "floatVal" : 1.1,
 
          }
       },
@@ -134,14 +134,14 @@
          "k" : "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.5,
+            "floatVal" : 1.0,
          }
       },
       {
          "k" : "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 10,
+            "floatVal" : 10.0,
          }
       },
       {
@@ -162,7 +162,7 @@
          "k" : "Float_PreferFacingHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.6,
+            "floatVal" : 1.0,
          }
       },
       {
@@ -184,7 +184,7 @@
          "k" : "Float_PreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.5,
+            "floatVal" : 1.5,
          }
       },
       {
@@ -205,7 +205,7 @@
          "k" : "Float_AcceptableHeatLevel",
          "v" : {
             "type" : "Float",
-            "floatVal" : 1.4,
+            "floatVal" : 2.0,
          }
       },
       {
@@ -233,7 +233,7 @@
          "k" : "Float_MeleeDamageMultiplier",
          "v" : {
             "type" : "Float",
-            "floatVal" : 3.0,
+            "floatVal" : 2.0,
 
          }
       },
@@ -241,7 +241,7 @@
          "k" : "Float_DFADamageMultiplier",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0,
+            "floatVal" : 1.4,
          }
       },
     ]
