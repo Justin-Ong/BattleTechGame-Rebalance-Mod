@@ -6,7 +6,7 @@
 	    "k" : "Float_PreferNotLethalPositionFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 1.5,
 	    }
 	},
 	{
@@ -15,7 +15,7 @@
 	    "k" : "Float_SprintPreferNotLethalPositionFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.7
+		"floatVal" : 2.0,
 	    }
 	},
 		{
@@ -25,7 +25,7 @@
 	       PreferNotLethalPositionFactor. */
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 100,
+		"floatVal" : 50,
 	    }
 	},
 	{
@@ -35,7 +35,7 @@
 	       PreferNotLethalPositionFactor. */
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 100,
+		"floatVal" : 75,
 	    }
 	},
 		{
@@ -43,7 +43,7 @@
 	    "k" : "Float_PreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0,
+		"floatVal" : 1.5,
 	    }
 	},
 	{
@@ -52,7 +52,7 @@
 	    "k" : "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.25,
+		"floatVal" : 2.0,
 	    }
 	},
 		{
@@ -82,7 +82,7 @@
             "k" : "Float_MeleeDamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1,
+		"floatVal" : 1.0,
             }
 	},
 		{
@@ -103,7 +103,7 @@
             "k" : "Float_DFADamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0,
+		"floatVal" : 0.0,
             }
 	},
 		{
@@ -111,36 +111,37 @@
 	    "k" : "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0,
+		"floatVal" : 3.0,
 	    }
 	},
 	{
 	    /* Whether to use Bulwark actions*/
-            "k" : "Bool_UseBulwarkActions",
-            "v" : {
+        "k" : "Bool_UseBulwarkActions",
+        "v" : {
 		"type" : "Bool",
 		"boolVal" : false,
-            }
+        }
 	},
-	  "k" : "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
-      "v" : {
+	{
+	    "k" : "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
+        "v" : {
         "type" : "Float",
-        "floatVal" : 1.0,
-      }
+		"floatVal" : 2.0,
+        }
     },
 	{
-	  "k" : "Float_PreferHigherPositionFactorWeight",
-	  "v" : {
-	    "type" : "Float",
-	    "floatVal" : 1.0,
-	  }
+	   "k" : "Float_PreferHigherPositionFactorWeight",
+	   "v" : {
+	   "type" : "Float",
+	   "floatVal" : 1.5,
+	   }
 	},
 	{
-      "k" : "Float_SprintPreferHigherPositionFactorWeight",
-      "v" : {
-        "type" : "Float",
-        "floatVal" : 1.5,
-	  }
+       "k" : "Float_SprintPreferHigherPositionFactorWeight",
+       "v" : {
+       "type" : "Float",
+       "floatVal" : 2.0,
+	   }
 	},
     ]
 }

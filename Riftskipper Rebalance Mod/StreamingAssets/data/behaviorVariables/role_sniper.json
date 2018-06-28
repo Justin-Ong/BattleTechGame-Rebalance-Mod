@@ -4,35 +4,35 @@
          "k" : "Float_PreferLowerMovementFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0,
+            "floatVal" : -0.1,
          }
       },
 	  {
 	     "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 1.0,
+            "floatVal" : 2.5,
          }
       },
       {
          "k" : "Float_PreferAttackFromBehindHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 1.1,
+            "floatVal" : 1.6,
          }
       },
       {
          "k" : "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 1.0,
+            "floatVal" : 1.5,
          }
       },
       {
          "k" : "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 10,
+            "floatVal" : 10.0,
          }
       },
       {
@@ -111,43 +111,104 @@
 	    "k" : "Float_SprintPreferStayInsideFenceNegativeLogicFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : -0.5,
+		"floatVal" : 0.0,
 	    }
 	},
 	{
       "k": "Float_PreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1.0,
       }
     },
     {
       "k": "Float_SprintPreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.5
+        "floatVal": 1.5,
       }
     },
 	{
 	  "k" : "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
       "v" : {
         "type" : "Float",
-        "floatVal" : 1.0,
+        "floatVal" : 5.0,
       }
     },
 	{
 	  "k" : "Float_PreferHigherPositionFactorWeight",
 	  "v" : {
 	    "type" : "Float",
-	    "floatVal" : 1.0,
+	    "floatVal" : 1.5,
 	  }
 	},
 	{
       "k" : "Float_SprintPreferHigherPositionFactorWeight",
       "v" : {
         "type" : "Float",
-        "floatVal" : 1.5,
+        "floatVal" : 2.0,
 	  }
+	},
+	{
+	    /* Influence Factor Weight to prefer facing hostiles.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+      "k" : "Float_PreferFacingHostileFactorWeight",
+      "v" : {
+		"type" : "Float",
+		"floatVal" : 1.0,
+      }
+	},
+	{
+	    /* Influence Factor Weight to prefer facing hostiles WHEN
+	       SPRINTING.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+      "k" : "Float_SprintPreferFacingHostileFactorWeight",
+      "v" : {
+		"type" : "Float",
+		"floatVal" : 0.1,
+      }
+	},
+	{
+	    /* When a buddy is exposed to enemy fire alone, apply this
+	     * weight to locations that DO NOT have line of fire to
+	     * hostiles. Probably negative. */
+      "k" : "Float_BuddyAloneFiringSolutionPreferenceWeight",
+      "v" : {
+		"type" : "Float",
+		"floatVal" : -1.0,
+            }
+	},
+	{
+	    /* When a buddy is exposed to enemy fire alone, apply this
+	     * weight to locations that DO NOT have line of fire to
+	     * hostiles WHEN SPRINTING. Probably negative. */
+      "k" : "Float_SprintBuddyAloneFiringSolutionPreferenceWeight",
+      "v" : {
+		"type" : "Float",
+		"floatVal" : -0.5,
+            }
+	},
+	{
+	    /* When a buddy is exposed to enemy fire alone, apply this
+	     * weight to locations that DO NOT have line of fire to
+	     * hostiles. Probably negative. */
+      "k" : "Float_BuddyAloneFiringSolutionPreferenceWeight",
+      "v" : {
+		"type" : "Float",
+		"floatVal" : -0.5,
+            }
+	},
+	{
+	    /* When a buddy is exposed to enemy fire alone, apply this
+	     * weight to locations that DO NOT have line of fire to
+	     * hostiles WHEN SPRINTING. Probably negative. */
+            "k" : "Float_SprintBuddyAloneFiringSolutionPreferenceWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : -0.8,
+            }
 	},
     ]
 }

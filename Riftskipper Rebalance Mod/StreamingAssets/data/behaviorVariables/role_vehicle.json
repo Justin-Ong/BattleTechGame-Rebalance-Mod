@@ -93,5 +93,33 @@
 		"floatVal" : 1.5,
 	    }
 	},
+	{
+        "k" : "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
+        "v" : {
+        "type" : "Float",
+        "floatVal" : 5.0,
+        }
+    },
+	{
+        "k": "Float_PreferLOSToFewestHostileFactorWeight",
+        "v": {
+        "type": "Float",
+        "floatVal": 1.0,
+        }
+    },
+	{
+	    "k" : "Float_PreferHigherPositionFactorWeight",
+	    "v" : {
+	    "type" : "Float",
+	    "floatVal" : 1.0,
+	    }
+	},
+	{
+       "k" : "Float_SprintPreferHigherPositionFactorWeight",
+       "v" : {
+       "type" : "Float",
+       "floatVal" : 1.5,
+	   }
+	},
 	]
 }

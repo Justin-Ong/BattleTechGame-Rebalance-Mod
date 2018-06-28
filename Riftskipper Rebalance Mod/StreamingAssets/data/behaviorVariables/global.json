@@ -83,7 +83,7 @@
             "k" : "Float_PreferredTargetToHitThreshold",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.3,
+		"floatVal" : 0.4,
             }
 	},
 	{
@@ -189,7 +189,7 @@
             "k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.0,
+		"floatVal" : 0.5,
             }
 	},
 	{
@@ -198,7 +198,7 @@
             "k" : "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0,
+		"floatVal" : 1.5,
             }
 	},
 	{
@@ -207,7 +207,7 @@
             "k" : "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2.0,
+		"floatVal" : 2.5,
             }
 	},
 	{
@@ -246,7 +246,7 @@
             "k" : "Float_PreferOptimalDistanceToAllyFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2,
+		"floatVal" : 0.1,
             }
 	},
 	{
@@ -255,7 +255,7 @@
             "k" : "Float_SprintPreferOptimalDistanceToAllyFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.0,
+		"floatVal" : 0.1,
             }
 	},
 	{
@@ -267,15 +267,7 @@
             "k" : "Float_AcceptableHeatLevel",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2.6,
-            }
-	},
-	{
-	    /* DEPRECATED */
-            "k" : "Float_ThreatBattleValueRoot",
-            "v" : {
-		"type" : "Float",
-		"floatVal" : 0.0,
+		"floatVal" : 2.1,
             }
 	},
 	{
@@ -352,7 +344,7 @@
             "k" : "Float_PreferHigherHeatSinkLocationsFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1,
+		"floatVal" : 0.2,
             }
 	},
 	{
@@ -361,7 +353,7 @@
             "k" : "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1,
+		"floatVal" : 0.2,
             }
 	},
 	{
@@ -397,7 +389,7 @@
 	    "k" : "Float_SprintPreferHigherMovementBonusLocationsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.0,
+		"floatVal" : 0.1,
 	    }
 	},
 	{
@@ -406,7 +398,7 @@
             "k" : "Float_PreferAttackingLowerArmorHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0,
+		"floatVal" : 1.5,
             }
 	},
 	{
@@ -541,7 +533,7 @@
             "k" : "Float_UnsteadyCausesDefensiveMovePercentage",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 80,
+		"floatVal" : 75,
             }
 	},
 	{
@@ -634,7 +626,7 @@
             "k" : "Float_BulwarkThresholdPercentage",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 50,
+		"floatVal" : 70,
             }
 	},
 	{
@@ -680,7 +672,7 @@
 	    "k" : "Float_ReserveHostilePercentageIncrementY",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 12.5,
+		"floatVal" : 10.0,
 	    }
 	},
 	{
@@ -736,7 +728,7 @@
 	       PreferNotLethalPositionFactor. */
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 100,
+		"floatVal" : 150,
 	    }
 	},
 	{
@@ -766,7 +758,7 @@
 	       not reserve. */
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 80.0,
+		"floatVal" : 60.0,
 	    }
 	},
 	{
@@ -786,7 +778,7 @@
 	    "k" : "Float_CalledShotCenterTorsoBaseChance",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 25.0,
+		"floatVal" : 20.0,
 	    }
 	},
 	{
@@ -898,7 +890,7 @@
 	    "k" : "Float_SprintExclusionRadius",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 244.0,
+		"floatVal" : 200.0,
 	    }
 	},
 	{
@@ -946,18 +938,6 @@
 	    "v" : {
 		"type" : "Float",
 		"floatVal" : 0.5,
-	    }
-	},
-	{
-	    /* DEPRECATED: Whether to use the new threat sorting that
-	       incorporates target damage output, or the earlier
-	       (Pre-July) version, which only looks at my ability to
-	       do damage to the target, and then distance. (Update:
-	       now always true.) */
-	    "k" : "Bool_UseNewThreatDEPRECATED",
-	    "v" : {
-		"type" : "Bool",
-		"boolVal" : true,
 	    }
 	},
 	{
@@ -1024,7 +1004,7 @@
 	    "k" : "Float_InspirationBaseDamageWindow",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2,	
+		"floatVal" : 0.35,	
 	    }
 	},
 	{
@@ -1037,7 +1017,7 @@
 	    "k" : "Float_InspirationIncrementalDamageWindow",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1,
+		"floatVal" : 0.3,
 	    }
 	},
 	{
@@ -1091,7 +1071,7 @@
 	    "k" : "Float_EvasiveToHitFloor",
 	    "v" : {
 		"type": "Float",
-		"floatVal" : 35.0,
+		"floatVal" : 40.0,
 	    }
 	},
 	{
@@ -1103,7 +1083,7 @@
 	    "k" : "Float_MinimumSensorLockQuality",
 	    "v" : {
 		"type": "Float",
-		"floatVal" : 50,
+		"floatVal" : 35,
 	    }
 	},
 	{
@@ -1197,7 +1177,7 @@
 	    "k" : "Float_PreferHigherRangedDefenseBonusLocationsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0,
+		"floatVal" : 0.8,
 	    }
 	},
 	{
@@ -1206,7 +1186,7 @@
 	    "k" : "Float_SprintPreferHigherRangedDefenseBonusLocationsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.5,
+		"floatVal" : 1.0,
 	    }
 	},
 	{
@@ -1229,7 +1209,7 @@
             "k" : "Float_UnsteadyOverkillThreshold",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 95.0,
+		"floatVal" : 90.0,
             }
 	},
 	{
@@ -1325,7 +1305,7 @@
             "k" : "Float_BuddyAloneFiringSolutionPreferenceWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -1.0,
+		"floatVal" : -1.5,
             }
 	},
 	{
@@ -1335,7 +1315,7 @@
             "k" : "Float_SprintBuddyAloneFiringSolutionPreferenceWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -1.5,
+		"floatVal" : -2.0,
             }
 	},
 	{
@@ -1348,7 +1328,7 @@
             "k" : "Float_BuddyAloneMoveNearbyPreferenceWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -1.2,
+		"floatVal" : -1.5,
             }
 	},
 	{
@@ -1361,7 +1341,7 @@
             "k" : "Float_SprintBuddyAloneMoveNearbyPreferenceWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -1.5,
+		"floatVal" : -2.0,
             }
 	},
 	{
@@ -1433,8 +1413,6 @@
 		"boolVal" : false
 	    }
 	},
-
-
 	{
 	    /* An alerted unit will act on visibility information,
 	       closing, attacking. Non-alerted units will still follow

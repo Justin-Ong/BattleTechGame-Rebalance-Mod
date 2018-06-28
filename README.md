@@ -14,7 +14,7 @@ You will need [ModTek](https://github.com/Mpstark/ModTek) and [BTML](https://git
 
 ## Conflicts
 
-This mod edits almost all weapon files, AC2 ammo and AC5 ammo, almost all mech chassis and CombatGameConstants.json. As such, installing this with other mods that edit these files can produce unwanted results.
+This mod edits almost all weapon files, AC2 ammo and AC5 ammo, almost all mech chassis, several ability files and CombatGameConstants.json. As such, installing this with other mods that edit these files can produce unwanted results.
 
 ## Installation
 
@@ -22,22 +22,24 @@ Download the .zip and extract the contents into your Mods folder.
 
 ## Main Features
 
-- Large Lasers and PPCs less stupidly hot.
+- Large Lasers less stupidly cool and PPCs less stupidly hot.
 - AC2s and AC5s made more useful.
 - LRMs and SRMs less powerful.
 - LRMs no longer cluster.
 - Guarded nerfed.
 - Precision shot nerfed.
-- Morale system more natural, can lose morale.
+- Morale system made more fluid and natural, can lose morale.
 - Light mechs made easier to knock down, heavy mechs made harder to knock down.
 - To hit modifiers... modified to make light vehicles and mechs harder to hit.
-- AI modified to be more challenging to fight.
+- AI modified to be more challenging to fight (WIP).
 
 ## Details
 
 **IMPORTANT: +hit chance makes a target harder to hit, -hit chance makes a target easier to hit.**
 
-### Abilities
+### Stats and Skills
+
+Gunnery now increased accuracy by 2.0% per point instead of 2.5%.
 
 Guarded damage reduction reduced from 50% to 33%.
 
@@ -49,9 +51,11 @@ Overheating now causes a pilot injury.
 
 Pilots can be injured multiple times in one instance of combat.
 
-### AI
+### AI (WIP)
 
 Will now play more defensively and stick together more.
+
+AI should play more to their roles (e.g. snipers should stay further back).
 
 ### Morale
 
@@ -79,7 +83,7 @@ Morale is now lost from:
 - Taking major armour damage (-2 morale).
 - Being knocked down (-10 morale).
 - Being DFA'd (-10 morale).
-- Ally being destroyed (-15 for lights and mediums, -20 for heavies, -25 for assaults).
+- Ally being destroyed (-25 for lights, -30 for mediums, -35 for heavies, -40 for assaults).
 - An ally being destroyed by melee causes an additional -10 morale.
 
 ### Mechs
@@ -211,5 +215,3 @@ The visual indicator for a mech's firing arc still shows 120 degrees instead of 
 ## Acknowledgements
 
 Thanks to Mpstark for creating ModTek and BTML.
-
-Thanks to Amechwarrior and Mpstark for AI modding info.
