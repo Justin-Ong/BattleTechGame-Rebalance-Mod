@@ -60,7 +60,7 @@
          "k" : "Float_PreferredTargetToHitThreshold",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.3,
+            "floatVal" : 0.35,
          }
       },
       {
@@ -210,6 +210,24 @@
             "floatVal" : 60.0,
          }
       },
+	  {
+	    /* Influence Factor Weight to control the desire to defend
+	       my own weak armor. */
+            "k" : "Float_PreferPresentingHigherArmorToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.25,
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to defend
+	       my own weak armor WHEN SPRINTING. */
+            "k" : "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.5,
+            }
+	},
       {
          "k" : "Float_ThreatBattleValueRoot",
          "v" : {

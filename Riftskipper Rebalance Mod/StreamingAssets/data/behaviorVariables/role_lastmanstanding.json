@@ -25,21 +25,21 @@
          "k" : "Float_PreferredTargetToHitThreshold",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.45,
+            "floatVal" : 0.3,
          }
       },
       {
          "k" : "Float_PreferLowerMovementFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : -1.5,
+            "floatVal" : -1.0,
          }
       },
       {
          "k" : "Float_PreferHigherPositionFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 1.5,
+            "floatVal" : 1.0,
 
          }
       },
@@ -47,7 +47,7 @@
          "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 1.5,
+            "floatVal" : 3.0,
 
          }
       },
@@ -70,7 +70,7 @@
          "k" : "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 10.0,
+            "floatVal" : 1.0,
          }
       },
       {
@@ -98,8 +98,38 @@
          "k" : "Float_PreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 1.5,
+            "floatVal" : 1.0,
          }
       },
+	  {
+	    /* How much heat is acceptable before being subject to "overheat" logic.
+	       0: no heat
+	       1: Heat level 1 (unused?)
+	       2: Heat level 2
+	       3: Max heat */
+            "k" : "Float_AcceptableHeatLevel",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 2.6,
+            }
+	  },
+	  {
+	    /* Influence Factor Weight to control the desire to defend
+	       my own weak armor. */
+            "k" : "Float_PreferPresentingHigherArmorToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.25,
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to defend
+	       my own weak armor WHEN SPRINTING. */
+            "k" : "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.5,
+            }
+	},
     ]
 }

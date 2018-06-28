@@ -73,7 +73,7 @@
 	    "k" : "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0,
+		"floatVal" : 1.2,
 	    }
 	},
 	{
@@ -81,7 +81,7 @@
 	    "k" : "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0,
+		"floatVal" : 0.5,
 	    }
 	},
 	{
@@ -90,7 +90,7 @@
 	    "k" : "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.5,
+		"floatVal" : 1.0,
 	    }
 	},
 	{
@@ -104,21 +104,21 @@
         "k": "Float_PreferLOSToFewestHostileFactorWeight",
         "v": {
         "type": "Float",
-        "floatVal": 1.0,
+        "floatVal": 0.5,
         }
     },
 	{
 	    "k" : "Float_PreferHigherPositionFactorWeight",
 	    "v" : {
 	    "type" : "Float",
-	    "floatVal" : 1.0,
+	    "floatVal" : 0.65,
 	    }
 	},
 	{
        "k" : "Float_SprintPreferHigherPositionFactorWeight",
        "v" : {
        "type" : "Float",
-       "floatVal" : 1.5,
+       "floatVal" : 0.85,
 	   }
 	},
 	]

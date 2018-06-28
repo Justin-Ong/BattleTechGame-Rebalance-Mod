@@ -43,7 +43,7 @@
 	    "k" : "Float_PreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 1.5,
+		"floatVal" : 1.0,
 	    }
 	},
 	{
@@ -52,7 +52,7 @@
 	    "k" : "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 2.0,
+		"floatVal" : 1.2,
 	    }
 	},
 		{
@@ -111,7 +111,7 @@
 	    "k" : "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 3.0,
+		"floatVal" : 2.0,
 	    }
 	},
 	{
@@ -126,22 +126,73 @@
 	    "k" : "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
         "v" : {
         "type" : "Float",
-		"floatVal" : 2.0,
+		"floatVal" : 1.5,
         }
     },
 	{
 	   "k" : "Float_PreferHigherPositionFactorWeight",
 	   "v" : {
 	   "type" : "Float",
-	   "floatVal" : 1.5,
+	   "floatVal" : 2.0,
 	   }
 	},
 	{
        "k" : "Float_SprintPreferHigherPositionFactorWeight",
        "v" : {
        "type" : "Float",
-       "floatVal" : 2.0,
+       "floatVal" : 0.8,
 	   }
+	},
+	{
+	    /*
+	      Description: Number of points of damage that a sensor
+	      locking turn needs to do over a straight up shooting
+	      turn before deciding to sensor lock. Positive is a
+	      shooting bias, negative is a sensor lock bias.*/
+	    "k" : "Float_MinimumSensorLockQuality",
+	    "v" : {
+		"type": "Float",
+		"floatVal" : 0,
+	    }
+	},
+	{
+	    /* Influence Factor Weight to prefer facing hostiles.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+      "k" : "Float_PreferFacingHostileFactorWeight",
+      "v" : {
+		"type" : "Float",
+		"floatVal" : 0.3,
+      }
+	},
+	{
+	    /* Influence Factor Weight to prefer facing hostiles WHEN
+	       SPRINTING.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+      "k" : "Float_SprintPreferFacingHostileFactorWeight",
+      "v" : {
+		"type" : "Float",
+		"floatVal" : 0.5,
+      }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to defend
+	       my own weak armor. */
+            "k" : "Float_PreferPresentingHigherArmorToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.25,
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to defend
+	       my own weak armor WHEN SPRINTING. */
+            "k" : "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.5,
+            }
 	},
     ]
 }

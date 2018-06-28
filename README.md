@@ -14,7 +14,7 @@ You will need [ModTek](https://github.com/Mpstark/ModTek) and [BTML](https://git
 
 ## Conflicts
 
-This mod edits almost all weapon files, AC2 ammo and AC5 ammo, almost all mech chassis, several ability files and CombatGameConstants.json. As such, installing this with other mods that edit these files can produce unwanted results.
+This mod edits almost all weapon files, AC2 ammo and AC5 ammo, almost all mech chassis, several ability files, several behaviorVariable files and CombatGameConstants.json. As such, installing this with other mods that edit these files can produce unwanted results.
 
 ## Installation
 
@@ -53,9 +53,11 @@ Pilots can be injured multiple times in one instance of combat.
 
 ### AI (WIP)
 
-Will now play more defensively and stick together more.
+Should now play more defensively and stick together more.
 
-AI should play more to their roles (e.g. snipers should stay further back).
+Should focus fire better.
+
+Should play more to their roles (e.g. snipers should stay further back).
 
 ### Morale
 
@@ -149,7 +151,6 @@ Machine Gun:
 
 AC2:
 - Now deal 10 damage per shot and fire 3 shots at once, dealing 30 damage total. Shots roll for hit chance and hit location independently.
-- Now deal 4 stability damage per shot instead of 5.
 - +Dmg weapon attributes adjusted to be less powerful.
 
 AC5:

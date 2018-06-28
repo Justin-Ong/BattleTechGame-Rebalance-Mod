@@ -2,6 +2,6 @@
     "Damage" : 25,
     "ShotsWhenFired" : 2,
     "ProjectilesPerShot" : 1,
-	"Instability" : 8,
+	"Instability" : 10,
     "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
 }

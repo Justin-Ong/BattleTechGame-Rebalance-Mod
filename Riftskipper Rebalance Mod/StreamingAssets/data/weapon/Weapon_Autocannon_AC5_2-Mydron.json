@@ -2,7 +2,7 @@
     "Damage" : 25,
     "ShotsWhenFired" : 2,
     "ProjectilesPerShot" : 1,
-	"Instability" : 10,
+	"Instability" : 12,
     "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
 	"BonusValueB" : "+ 2 Stb.Dmg.",
 }

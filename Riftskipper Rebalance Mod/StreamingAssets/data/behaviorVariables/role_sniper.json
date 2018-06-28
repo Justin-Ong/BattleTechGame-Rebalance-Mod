@@ -11,7 +11,7 @@
 	     "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 2.5,
+            "floatVal" : 3.0,
          }
       },
       {
@@ -118,35 +118,35 @@
       "k": "Float_PreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0,
+        "floatVal": 0.5,
       }
     },
     {
       "k": "Float_SprintPreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.5,
+        "floatVal": 0.8,
       }
     },
 	{
 	  "k" : "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
       "v" : {
         "type" : "Float",
-        "floatVal" : 5.0,
+        "floatVal" : 10.0,
       }
     },
 	{
 	  "k" : "Float_PreferHigherPositionFactorWeight",
 	  "v" : {
 	    "type" : "Float",
-	    "floatVal" : 1.5,
+	    "floatVal" : 1.0,
 	  }
 	},
 	{
       "k" : "Float_SprintPreferHigherPositionFactorWeight",
       "v" : {
         "type" : "Float",
-        "floatVal" : 2.0,
+        "floatVal" : 1.5,
 	  }
 	},
 	{
@@ -208,6 +208,73 @@
             "v" : {
 		"type" : "Float",
 		"floatVal" : -0.8,
+            }
+	},
+		{
+	    /* Radius (in meters) to avoid sprinting within. */
+	    "k" : "Float_SprintExclusionRadius",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 450.0,
+	    }
+	},
+	{
+	    /* Influence Factor Weight to be inside SprintExclusionRadius. */
+	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : -3.0,
+	    }
+	},
+	{
+	    /* Influence Factor Weight to be inside
+	       SprintExclusionRadius WHEN SPRINTING.  N.B. this should
+	       have NEGATIVE weights to discourage sprinting close to
+	       hostiles.
+	    */ 
+	    "k" : "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : -1.5,
+	    }
+	},
+	{
+	    /* Influence Factor Weight to reject being closer than the
+	       minimum weapon range to hostiles.  */
+            "k" : "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.5,
+            }
+	},
+	{
+	    /* How much heat is acceptable before being subject to "overheat" logic.
+	       0: no heat
+	       1: Heat level 1 (unused?)
+	       2: Heat level 2
+	       3: Max heat */
+            "k" : "Float_AcceptableHeatLevel",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 2.6,
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to defend
+	       my own weak armor. */
+            "k" : "Float_PreferPresentingHigherArmorToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.25,
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to defend
+	       my own weak armor WHEN SPRINTING. */
+            "k" : "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.5,
             }
 	},
     ]
