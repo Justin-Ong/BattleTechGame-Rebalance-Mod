@@ -53,9 +53,9 @@ Pilots can be injured multiple times in one instance of combat.
 
 ### AI (WIP)
 
-Should now play more defensively and stick together more.
+Should now play more defensively.
 
-Should focus fire better.
+Should focus fire a little better.
 
 Should play more to their roles (e.g. snipers should stay further back).
 
@@ -197,7 +197,9 @@ Overheating gives +2 to hit chance instead of 0.
 
 Walking gives +1 to hit chance instead of 0.
 
-Distances required to gain the first 3 evasion pips decreased from 70, 100, 130 to 20, 80, 120 respectively. That means moving just 1 hex is sufficient for 1 pip of evasion.
+Distances required to gain the first 3 evasion pips decreased from 70, 100, 130 to 20, 80, 120 respectively. That means moving just 1 hex is sufficient for 1 pip of evasion, and it is easier to get up to 3 pips.
+
+Distances required to gain the last 3 evasion pips increased from 160, 190, 220 to 190, 220, 250 respectively. That means getting high levels of evasion is now harder.
 
 Making a mech unsteady now removes Guarded.
 
