@@ -85,6 +85,7 @@ Morale is now lost from:
 - Taking major armour damage (-2 morale).
 - Being knocked down (-10 morale).
 - Being DFA'd (-10 morale).
+- Failing an objective (-25 morale).
 - Ally being destroyed (-25 for lights, -30 for mediums, -35 for heavies, -40 for assaults).
 - An ally being destroyed by melee causes an additional -10 morale.
 
