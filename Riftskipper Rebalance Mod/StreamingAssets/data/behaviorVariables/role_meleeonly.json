@@ -1,0 +1,80 @@
+{
+   "behaviorVariables" : [
+	{
+	    /* When considering different kinds of attacks, multiply
+	       the melee damage by this value to decide which attack
+	       to use. */
+            "k" : "Float_MeleeDamageMultiplier",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 12,
+            }
+	},
+	{
+	    /* When considering different kinds of attacks, multiply
+	       the DFA damage by this value to decide which attack to
+	       use. */
+            "k" : "Float_DFADamageMultiplier",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 6,
+            }
+	},
+	{
+	    /* If a target is a melee revenge target, but the ratio of
+	       its expected melee damage to my expected melee damage
+	       is higher than this threshold, DO NOT MELEE! It'll all
+	       end in tears! */
+            "k" : "Float_MeleeDamageRatioCap",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1000,
+            }
+	},
+	{
+	    /* A weight for an influence factor to prefer to get
+	       inside melee range. Negative values will encourage
+	       units to get out of melee range. */
+            "k" : "Float_PreferInsideMeleeRangeFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.5,
+            }
+	},
+	{
+	    /* A weight for an influence factor to prefer to get
+	       inside melee range WHEN SPRINTING. Negative values will
+	       encourage units to get out of melee range. */
+            "k" : "Float_SprintPreferInsideMeleeRangeFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.0,
+            }
+	},
+	{
+	     "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 3.0,
+         }
+    },
+	{
+	    /* Influence Factor Weight to control the desire to defend
+	       my own weak armor. */
+            "k" : "Float_PreferPresentingHigherArmorToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.25,
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to defend
+	       my own weak armor WHEN SPRINTING. */
+            "k" : "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.5,
+            }
+	},
+   ]
+}
