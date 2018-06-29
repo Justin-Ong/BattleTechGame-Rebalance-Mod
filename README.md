@@ -102,6 +102,12 @@ SRMs:
 - Base damage reduced from 8 to 7.
 - +weapon attributes adjusted to be less powerful.
 
+Flamer:
+- Base damage reduced to 0.
+- Now have 999 ammo.
+- Now peoduce heat equal to half the heat damage dealt.
+- +Heat damage attributes made less powerful.
+
 Small Laser:
 - Base damage reduced from 20 to 15.
 - Heat reduced from 6 to 5.
