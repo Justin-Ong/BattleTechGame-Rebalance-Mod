@@ -31,7 +31,7 @@ Download the .zip and extract the contents into your Mods folder.
 - Morale system made more fluid and natural, can lose morale.
 - Light mechs made easier to knock down, heavy mechs made harder to knock down.
 - To hit modifiers... modified to make light vehicles and mechs harder to hit.
-- AI modified to be more challenging to fight (WIP).
+- AI modified to be more challenging to fight (WIP, optional).
 
 ## Details
 
@@ -51,7 +51,7 @@ Overheating now causes a pilot injury.
 
 Pilots can be injured multiple times in one instance of combat.
 
-### AI (WIP)
+### AI (WIP, optional)
 
 Should now play more defensively.
 
